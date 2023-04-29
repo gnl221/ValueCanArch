@@ -1,6 +1,7 @@
 #! /bin/bash
 
 sudo pacman -S linux-headers base-devel git libusb libpcap
+cd ~
 git clone https://github.com/intrepidcs/intrepid-socketcan-kernel-module.git
 cd intrepid-socketcan-kernel-module
 make
